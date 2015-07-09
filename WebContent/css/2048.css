@@ -4,20 +4,42 @@
 }
 body{
 	width:100%;
+	background-color:#fff
 }
-.2048-content{
+.content{
+	
 	width:250px;
 	height:250px;
 	margin:0 auto;
 }
-.2048-row{
+.action{
+	position:relative;
+	width:250px;
+	height:250px;
+	margin:0 auto;
+}
+.row{
+	clear:both;
 	margin-top:10px;
 	height:50px;
 }
-.2048-cell{
+.cell{
 	margin-left:10px;
 	float:left;
 	width:50px;
 	height:50px;
 	background-color:#aaa;
+}
+.position-11{
+	position:
+}
+.num2{
+	width:50px;
+	height:50px;
+	color:blue;
+	font-size:30px;
+	background-color:red;
+}
+.num2:after{
+	content:"2"
 }
