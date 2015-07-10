@@ -16,6 +16,7 @@ body{
 	position:relative;
 	width:250px;
 	height:250px;
+	top:-250px;
 	margin:0 auto;
 }
 .row{
@@ -30,16 +31,168 @@ body{
 	height:50px;
 	background-color:#aaa;
 }
-.position-11{
-	position:
-}
-.num2{
+.cell2{
 	width:50px;
 	height:50px;
-	color:blue;
+}
+.position-11{
+	position:absolute;
+	z-index:100;
+	left:10px;
+	top:0px;
+	
+}
+.position-12{
+	position:absolute;
+	z-index:100;
+	left:70px;
+	top:0px;
+	
+}
+.position-13{
+	position:absolute;
+	z-index:100;
+	left:130px;
+	top:0px;
+	
+}
+.position-14{
+	position:absolute;
+	z-index:100;
+	left:190px;
+	top:0px;
+	
+}
+
+.position-21{
+	position:absolute;
+	z-index:100;
+	left:10px;
+	top:60px;
+	
+}
+.position-22{
+	position:absolute;
+	z-index:100;
+	left:70px;
+	top:60px;
+	
+}
+.position-23{
+	position:absolute;
+	z-index:100;
+	left:130px;
+	top:60px;
+	
+}
+.position-24{
+	position:absolute;
+	z-index:100;
+	left:190px;
+	top:60px;
+	
+}
+.position-31{
+	position:absolute;
+	z-index:100;
+	left:10px;
+	top:120px;
+	
+}
+.position-32{
+	position:absolute;
+	z-index:100;
+	left:70px;
+	top:120px;
+	
+}
+.position-33{
+	position:absolute;
+	z-index:100;
+	left:130px;
+	top:120px;
+	
+}
+.position-34{
+	position:absolute;
+	z-index:100;
+	left:190px;
+	top:120px;
+	
+}
+.position-41{
+	position:absolute;
+	z-index:100;
+	left:10px;
+	top:180px;
+	
+}
+.position-42{
+	position:absolute;
+	z-index:100;
+	left:70px;
+	top:180px;
+	
+}
+.position-43{
+	position:absolute;
+	z-index:100;
+	left:130px;
+	top:180px;
+	
+}
+.position-44{
+	position:absolute;
+	z-index:100;
+	left:190px;
+	top:180px;
+	
+}
+.num2{
+	color:#fff;
 	font-size:30px;
-	background-color:red;
+	background-color:#ff6a6a;
 }
 .num2:after{
 	content:"2"
+}
+.num4{
+	color:#fff;
+	font-size:30px;
+	background-color:#ffa2a2;
+}
+.num4:after{
+	content:"4"
+}
+.num8{
+	color:#fff;
+	font-size:30px;
+	background-color:#e03636;
+}
+.num8:after{
+	content:"8"
+}
+.num16{
+	color:#fff;
+	font-size:30px;
+	background-color:#e19b3c;
+}
+.num16:after{
+	content:"16"
+}
+.num32{
+	color:#fff;
+	font-size:30px;
+	background-color:#fc8727;
+}
+.num32:after{
+	content:"32"
+}
+.num64{
+	color:#fff;
+	font-size:30px;
+	background-color:#fdc08a;
+}
+.num64:after{
+	content:"32"
 }
