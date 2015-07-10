@@ -1,4 +1,4 @@
-package zq0000_test;
+package normal.zq0000_test;
 
 import java.util.Scanner;
 

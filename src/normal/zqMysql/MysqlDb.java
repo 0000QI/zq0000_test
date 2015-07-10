@@ -1,4 +1,4 @@
-package zqMysql;
+package normal.zqMysql;
 
 
 /*
