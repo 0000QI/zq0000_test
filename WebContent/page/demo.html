@@ -1,102 +1,32 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
     <meta content="telephone=no" name="format-detection">
-    <meta charset="gb2312">
-    <title>第二届小灿灿杯“家有萌娃”晒娃大赛</title>
-    <meta name="description" content="快来参加，丰富奖品等你来拿！">
+
+    <title>下拉刷新</title>
 	<script src="js/jquery-2.1.0.min.js"></script>
-	<script src="js/jquery.masonry.min.js"></script>
 	<style type="text/css">
-	
-.pop {
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-
-.mengceng {
-    background-color: #000;
-    height: 100%;
-    left: 0;
-    opacity: 0.5;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.pop_up {
-    background-color: #ff756b;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: #fff;
-    display: block;
-    font-size: 16px;
-    left: 0;
-    margin: auto;
-    padding: 15px 10px;
-    position: fixed;
-    right: 0;
-    text-align: center;
-    top: 30%;
-    width: 90%;
-}
-
-.pop_up .tit_p {
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 5px;
-}
-
-.pop_up .tit_txt {
-    line-height: 24px;
-    margin-bottom: 10px;
-}
-
-.pop_up .gz_btn {
-    background-color: #fff;
-    border-radius: 5px;
-    color: #ff756b;
-    font-size: 20px;
-    line-height: 38px;
-    padding: 0 20px;
-}
-.none{
-display:none;
-}
+		.none{
+		display:none;
+		}
 	</style>
 </head>
 <body>
-	<section id="mainSection">
-		<input type="button" value="投票" id="vote">
-	</section>
-	<section id="popSection">
-	    <div style="" id="guanzhu" class="pop none">
-	        <div class="mengceng"></div>
-	        <div class="pop_up">
-	            <p class="tit_p">如何参与活动</p>
-	            <p class="tit_txt">请先关注微信公众号“摆滴一米”如果您已关注，请进入公众号点击菜单的萌宝大赛或者回复关键词“萌宝”进入活动页面报名或者投票！</p>
-	            <a class="gz_btn" href="http://mp.weixin.qq.com/s?__biz=MzA5NDg2MDM2Ng==&amp;mid=205435755&amp;idx=1&amp;sn=15704d95a660870897c93dc69c6bff0c#rd">详细了解参与方法</a>
-	        </div>
-	    </div>
-	</section>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+	</ul>
 	<script type="text/javascript">
-	$("#vote").on("click",function(){
-		$("#guanzhu").removeClass("none");
-	});
-	$(".mengceng").on("click",function(){
-		$("#guanzhu").addClass("none");
-	});
+		alert(1);
 	
-	
-	
-	$(document).ready(function(){
-		$("#vote").click();
-	}); 
 	</script>
 </body>
 </html>
